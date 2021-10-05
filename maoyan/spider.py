@@ -1,3 +1,4 @@
+# --*-- coding: utf-8 --*--
 import requests
 import parsel
 from urllib.parse import urljoin
