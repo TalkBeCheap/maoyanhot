@@ -33,7 +33,7 @@ jobs:
     - name: Commit files  # transfer the new html files back into the repository
       run: |
         git config --local user.name  ${{ github.actor }}
-        git add ./data
+        git add ./maoyan/data
         git commit -m "Updating the repository GitHub html pages in the docs folder"
     - name: Push changes  # push the output folder to your repo
       uses: ad-m/github-push-action@master
